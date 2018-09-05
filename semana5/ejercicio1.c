@@ -8,7 +8,11 @@ float log_;
 float sin_;
 float cos_;
 float sqrt_;
-int n=5,x;
+int n,x;
+printf("Inserte un valor para x: \n");
+scanf("%f", &x);
+printf("¿Cuantas veces quieres que se repita?: \n");
+scanf("%i", &n);
 for(x=0;x<n;x++){
 exp_=exp(x);
 printf("%i\t %f\n",x,exp_);
