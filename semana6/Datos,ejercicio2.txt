@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-FILE *resultados;
 int main(){
 int N=10, sem[N],edad[N],sem1=0, sem2=0, sem3=0, sem4=0, sem5=0, sem6=0, sem7=0, sem8=0, sem9=0;
 
@@ -33,18 +32,16 @@ scanf("%f", &promedio[i]);
 p=p+promedio[i];
 
 }
-resultados=fopen("resultados,ejercicio2.txt","w");
-fprintf(resultados," %i son mujeres y %i son hombres\n",m,h);
+
+printf(" %i son mujeres y %i son hombres\n",m,h);
 e=e/10;
-fprintf(resultados,"El promedio de las edades es %f\n", e);
-fprintf(resultados,"Alumnos en cada semestre; primero: %i, segundo: %i ,tercero: %i, cuarto: %i , quinto:%i ,sexto: %i , septimo: %i ,octavo: %i, noveno: %i \n", sem1,sem2,sem3,sem4,sem5,sem6,sem7,sem8,sem9);
+printf("El promedio de las edades es %f\n", e);
+printf("Alumnos en cada semestre; primero: %i, segundo: %i ,tercero: %i, cuarto: %i , quinto:%i ,sexto: %i , septimo: %i ,octavo: %i, noveno: %i \n", sem1,sem2,sem3,sem4,sem5,sem6,sem7,sem8,sem9);
 p=p/9;
-fprintf(resultados,"El promedio de calificación es: %f\n", p);
-fclose(resultados);
+printf("El promedio de calificación es: %f\n", p);
 
 return 0;
 
 
 
 }
-

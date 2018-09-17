@@ -1,0 +1,4 @@
+ 5 son mujeres y 5 son hombres
+El promedio de las edades es 16.400000
+Alumnos en cada semestre; primero: 0, segundo: 0 ,tercero: 0, cuarto: 1 , quinto:4 ,sexto: 2 , septimo: 0 ,octavo: 3, noveno: 0 
+El promedio de calificación es: 8.555555
