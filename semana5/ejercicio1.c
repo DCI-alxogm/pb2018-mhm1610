@@ -1,6 +1,7 @@
 /*Programa realizado el 03 de Septiembre de 2018 por Mariana Herrera*/
 #include<stdio.h>
 #include<math.h>
+FILE *resultados;
 int main()
 {
 float exp_;
@@ -15,15 +16,17 @@ printf("¿Cuantas veces quieres que se repita?: \n");
 scanf("%i", &n);
 for(x=0;x<n;x++){
 exp_=exp(x);
-printf("%i\t %f\n",x,exp_);
+resultados=fopen("resultados,ejercicio3.txt", "w");
+fprintf(resultados,"%i\t %f\n",x,exp_);
 log_=log(x);
-printf("%i\t %f\n",x,log_);
+fprintf(resultados,"%i\t %f\n",x,log_);
 sin_=sin(x);
-printf("%i\t %f\n",x,sin_);
+fprintf(resultados,"%i\t %f\n",x,sin_);
 cos_=cos(x);
-printf("%i\t %f\n",x,cos_);
+fprintf(resultados,"%i\t %f\n",x,cos_);
 sqrt_=sqrt(x);
-printf("%i\t %f\n",x,sqrt_);
+fprintf(resultados,"%i\t %f\n",x,sqrt_);
+fclose(resultados);
 }
 return 0;
 }
