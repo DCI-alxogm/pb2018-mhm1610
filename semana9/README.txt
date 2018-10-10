@@ -5,3 +5,4 @@ Para el utlimo dia de clase de la semana vimos funciones y de tarea tenemos vari
 El ejercicio1_1 es de void para agrumentos con entrada pero sin argumentos de salida, esto quiere decir que no me va a dar resultados.
 El ejercicio 1_2 es de void para argumentos con salida pero sin entrada.
 El ejercicio 2_1 es de tipo float con argumento de entrada pero sin argumentos de salida.
+El ejercicio 2_2 es de tipo float con argumentos de salida pero sin argumentos de entrada
